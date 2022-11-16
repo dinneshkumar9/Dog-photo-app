@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog photo app</title>
+</head>
+<body>
+    <main>
+        <h1>DogPhotoApp</h1>
+        <section>
+            <h2>Dog Photos</h2>
+            <p>Click here to view more <a target="_blank" href="https://unsplash.com/s/photos/dog" alt="unsplash link for more dog photos">dog photos</a>.</p>
+            <a target="_blank" href="https://unsplash.com/s/photos/dog"><img src="https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" width="320" height="240" alt="a photo cute dog.">
+            </a>
+        </section>
+        <section>
+            <h2>Dog Lists</h2>
+            <h3>Things dogs love:</h3>
+            <ul>
+                <li>Always being by owners side</li>
+                <li>Being Productive</li>
+                <li>Playing</li>
+            </ul>
+            <figure>
+                <img src="https://images.unsplash.com/photo-1601758003839-512c0f4159e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="dog playing with ball" width="320">
+                <figcaption>Dog <em>loves</em> to fetch ball</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h3>Things dogs hate:</h3>
+            <ol>
+                <li>Being Left On Their Own</li>
+                <li>Having Their Nails Trimmed</li>
+                <li>When Owners Are Tense And Stressed</li>
+            </ol>
+            <figure>
+                <img src="https://images.unsplash.com/photo-1617892656337-bffa9b92421b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="sad dog and a man" width="340" height="300">
+                <figcaption>Dog <strong>hates</strong> when owners Are tense And stressed</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Dog Form</h2>
+            <form>
+            <fieldset>
+                <legend>Is your cat an indoor or outdoor dog?</legend>
+                <input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked><label for="indoor">Indoor</label>
+                <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"><label for="outdoor">Outdoor</label>
+            </fieldset>
+            <fieldset>
+                <legend>What's your dog's personality?</legend>
+                <input id="loving" type="checkbox" value="loving" name="personality" checked><label for="loving">Loving</label>
+                <input id="lazy" type="checkbox" value="lazy" name="personality"><label for="lazy">Lazy</label>
+                <input id="energetic" type="checkbox" value="energetic" name="personality"><label for="energetic">Energetic</label>
+            </fieldset>
+            <input type="text" name="dogphotourl" placeholder="dog photo URL" required>
+            <button type="button">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+            <p>
+            No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+            </p>
+    </footer>
+</body>
+</html>
